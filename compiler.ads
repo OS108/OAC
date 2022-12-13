@@ -1,9 +1,5 @@
 package Compiler is
 
-   -- Include the Front_End and Back_End units
-   with Compiler.Front_End;
-   with Compiler.Back_End;
-
    -- Type definitions
    type String is new Ada.Strings.Unbounded.Unbounded_String;
    type File_Type is private;
